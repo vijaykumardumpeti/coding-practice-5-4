@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-style {
+  padding: 7px;
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.paragraph {
+  color: #334155;
+}
